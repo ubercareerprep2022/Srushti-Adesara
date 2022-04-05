@@ -1,0 +1,36 @@
+// work in progress
+
+import java.util.*;
+
+
+
+//top is defined as the index at 0
+//bottom is defined as the index at length - 1
+public class Part3 {
+
+    ArrayList<Integer> stack = new ArrayList<Integer>();
+    
+    public static int push(){
+        // to be filled
+
+    }
+
+    public int pop(){
+        int val = stack.remove(0);
+        return val;
+    }
+
+    public int top(){
+        int top = stack.get(0);
+        return top;
+    }
+
+    public boolean isEmpty(){
+        return (stack.size() == 0);
+    }
+
+    public int size(){
+        return stack.size();
+    }
+
+}
