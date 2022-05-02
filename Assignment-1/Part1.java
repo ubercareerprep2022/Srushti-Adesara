@@ -23,7 +23,7 @@ public static boolean isStringPermutation(String s1, String s2){
             val = true;
             if (val == false){
                 return false;
-            }
+            } 
         }
     }
 return val;
