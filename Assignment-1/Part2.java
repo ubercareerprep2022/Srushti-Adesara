@@ -1,14 +1,13 @@
 import java.util.*;
 
-public class Part1 {
+public class Part2 {
 
 public static void main (String[]args){
 
-
+    
+   
 }
 
-
-//how to account for double letters
 //another approach is using a map to track occurence of each letter in s2 and making sure it occurs that many times in s1
 
 public static boolean isStringPermutation(String s1, String s2){
@@ -23,7 +22,7 @@ public static boolean isStringPermutation(String s1, String s2){
             val = true;
             if (val == false){
                 return false;
-            } 
+            }
         }
     }
 return val;
