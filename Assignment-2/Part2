@@ -1,0 +1,49 @@
+import java.util.Queue;
+
+public static class GraphNode {
+    public int data;
+    GraphNode(int data) {
+      this.data = data;
+    }
+  }
+  
+  class GraphWithAdjacencyList {
+      private Map<GraphNode, List<GraphNode>> adjNodes;
+
+      public void addNode(int key){
+          adjNodes.add(key);
+      }
+
+      public void removeNode(int key){
+        adjNodes.remove(key);
+    }
+
+    
+    public void addEdge(int node1, int node 2){
+       GraphNode temp = new GraphNode(data);
+       adjNodes.add(temp);
+
+       adjNodes.get(temp).add(node1);
+       adjNodes.get(temp).add(node2);
+    }
+
+
+    //need to complete - missing
+    public GraphNode findPath(int key){
+        Queue<E> temp = new PriorityQueue<>();
+
+        while (!temp.isEmpty()){
+            Path<E> shortestPath = temp.remove();
+            GraphNode<E> minDestination = new GraphNode<>();
+        }
+
+        if(minDestination.equals(null)){
+            return shortestPath;
+            
+        } else {
+            shortestPath.add(minDestination);
+        }
+        return shortestPath;
+    }
+  }
+  
