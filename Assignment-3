@@ -1,1 +1,41 @@
+public static void main (String args[]) {
 
+
+//Sort Exercise 1 
+
+  public static int sort1(int array[]){
+    for (int i =0; i < array.length; i++){
+      if (array[i] > array[i+1]){
+        int temp = array[i];
+        array[i] = array[i+1];
+        array[i+1] = temp;
+      }
+    }
+
+//Exercise 2
+
+//0 means no index found
+public static int sort2(int array[], int number){ 
+  for (int i = 0; i < array.length; i++){
+    if (array[i] == number){
+      return i;
+    }
+  }
+  return 0;
+}
+
+//Exercise 3
+
+public static int pow(int x, int n){
+int val = 1;
+  for (int i = 0; i < n; i++){
+    val = val*i;
+  }
+  return val;
+}
+
+
+
+  }
+
+}
